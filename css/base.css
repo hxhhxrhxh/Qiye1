@@ -1,0 +1,20 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-25 22:48:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-25 22:49:48
+*/
+*{
+		padding: 0;
+		margin: 0;
+	    list-style: none;
+	    box-sizing: border-box;
+	    font-family:"微软雅黑","苹方";
+	}
+
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}

@@ -1,0 +1,384 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-30 10:51:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 10:56:10
+*/
+/* 固定开始 */
+.fix{
+	position: fixed;
+	top:375px;
+	right: 0;
+	z-index: 99;
+}
+.fix ul li{
+	width: 60px;
+	background: #77CC5B;
+}
+.fix ul li:nth-child(3){
+	background: #4BB344;
+}
+.fix ul li i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+}
+.fix ul li:hover{
+	background: #4BB344;
+}
+/* 固定结束 */
+nav{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+nav .con{
+	width: 100%;
+	height: 80px;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+
+nav .picture{
+	height: 100%;
+	padding-top:10px;
+}
+nav .picture img{
+	width: 167px;
+	/* height: 56px; */
+	display: block;
+	margin:0 auto;
+}
+nav .title{
+	width: 100%;
+	margin-top: 10px;
+}
+nav .title ul{
+	margin-bottom: 0;
+}
+nav .title .title-list{
+	display: none;
+	background:#60C14D;
+}
+nav .title .title-list a{
+	text-align: center;
+	color: white;
+}
+nav .title .title-list .xia{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+nav .title .title-text{
+	
+	display: none;
+}
+nav .title ul li a{
+	color: #757575;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	/* border-bottom: 1px solid #757575; */
+	display: block;
+	/* height: 65px; */
+	line-height: 40px;
+}
+nav .title ul li a:hover{
+	border-bottom: 1px solid #757575;
+}
+nav .sign{
+	width: 20%;
+	display: none;
+}
+
+
+/* banner开始 */
+
+.banner{
+	width: 100%;
+	height: 200px;
+	background-image:url("../img/33.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* banner结束 */
+
+
+/* 关于我们的头部开始 */
+.top .top-word{
+	background: #efefef;
+	margin-top: 40px;
+	padding: 10px 20px;
+}
+.top .top-word a{
+	color:  rgb(96, 193, 77);
+	text-decoration: none;
+}
+.top .top-word span{
+	color: #999;
+}
+
+/* 关于我们的头部结束 */
+
+
+/* 文章开始 */
+main .main-big{
+	background:white;
+	padding:0;
+}
+main .main-big h2{
+	font-size: 22px;
+    color: #494949;
+}
+main .main-big .date{
+	/* width: 95%; */
+	/* height:60px; */
+	border-top: 1px solid #EDEDED;
+	border-bottom: 1px solid #EDEDED;
+	color: #aaaaaa;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+}
+main .main-big .date p{
+	font-size: 12px;
+	line-height:20px; 
+	padding-top: 10px;
+}
+main .date .share{
+	/* height: 40px; */
+	color: #aaaaaa;	
+	display: flex;
+	flex-direction: row;
+}
+main .date .share i{
+	margin-left: 8px;
+	font-size: 20px;
+	line-height: 20px;
+}
+main .date .share .icon-weixin{
+	color:#7BC549;
+	font-size: 23px;
+}
+main .date .share .icon-weibo{
+	color:#FF7543;
+	font-size: 23px;
+}
+main .date .share .icon-douban{
+	color:#4DB254;
+}
+main .date .share .icon-in{
+	color:#55ACEE;
+}
+main .date .share h3{
+	font-size: 16px;
+	margin: 0;
+	padding-bottom: 10px;
+	/* line-height:40px;  */
+	
+}
+main .main-big .date a{
+		text-decoration: none;
+}
+main .today{
+	font-size: 13px;
+	color: #666;
+	padding: 40px 0;
+	line-height: 30px;
+	/* padding: 0 20px; */
+}
+.read .read-big{
+	display: none;
+}
+main .unline{
+	/* width: 95%; */
+	height: 1px;
+	background:#EDEDED;
+	margin: 0 auto;
+}
+main .last a{
+	text-decoration: none;
+}
+main .last h3{
+	font-size: 13px;
+	color: #6EAA4D;
+	/* padding-left: 20px; */
+}
+main .last h4{
+	font-size: 13px;
+	color: #6EAA4D;
+	/* padding-left: 20px; */
+	/* padding-bottom: 50px; */
+}
+/* 文章结束 */
+
+
+/* 阅读更多文章开始 */
+.read .read-big{
+	/* background: orange; */
+}
+.read .read-pic img{
+	width: 100%;
+	height: 100%;
+}
+.read .read-big .read-more{
+	width:100%;
+	height: 40px;
+	border: 2px solid #E2E2E2;
+	margin: 20px 0;
+	text-align: center;
+	line-height: 40px;
+	color: #888;
+	font-size: 16px;
+}
+.read .read-big .read-more:hover{
+	color: #666;
+}
+.read ul li{
+	border-bottom: 1px solid #E2E2E2;
+}
+.read ul li:hover{
+	transform: translateX(10px);
+}
+.read ul li h5{
+	color: #888;
+	font-size: 13px;
+}
+.read ul li:hover h5{
+	color: #666;
+}
+.read ul li a{
+	text-decoration: none;
+}
+.read ul li  h6{
+	font-size: 12px;
+    color:#aaaaaa;
+}
+/* 阅读更多文章结束 */
+
+/* 平板：小屏幕 col -sm- >768px */
+@media screen and (min-width: 768px){
+
+
+}
+
+
+
+
+/* 普通pc端：中等屏幕 col-md- >992px */
+
+@media screen and (min-width:992px){
+	nav .con{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .picture img{
+		margin: 0;
+	}
+	nav .title{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	nav .title ul{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .title ul li{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	nav .title .title-text{	
+		display: block;
+	}
+	nav .title .title-list{
+		background: white;
+	}
+	nav .title .title-list .black{
+		color: #757575;
+		border-bottom: 1px solid #757575;
+	}
+	nav .title .title-list .xia{
+		display: none;
+	}
+	nav .sign{
+		display: flex;
+		flex-direction: row;
+
+	}
+	nav .sign a{
+	color: #757575;
+	font-size: 14px;
+	line-height: 80px;
+	text-decoration: none;
+	padding-left: 5px;
+	}
+	nav .sign i img{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 32px;
+	margin-left: 10px;
+	}
+	.top .top-word{
+	margin-top: 40px;
+	background: #fff;
+	}
+	.top .container{
+	margin-bottom: 10px;
+	}
+	main .main-big .date{
+	
+		line-height:40px; 
+		margin-top: 40px;
+		height:40px;
+		display: flex;
+		flex-direction: row;
+	}
+	
+	main .main-big{
+	
+	padding: 40px 30px;
+	}
+	main .date .share i{
+	line-height:40px; 
+	}
+	body{
+		background: #EDEDED;
+	}
+	.biggest .biggest-con{
+	
+	/* padding:20px 20px; */
+	display: flex;
+	justify-content: space-between;
+	/* height:1380px; */
+	}
+	.read .read-big{
+	display: block;
+	padding-right: 0;
+	/* margin-left: 20px; */
+
+	}
+	.read .read-in{
+		padding: 30px 18px;
+		background: white;
+
+	}
+	main .date .share h3{
+		line-height: 40px;
+		margin-left: 150px;
+	}
+	
+}
+
+
+	 /* 大屏幕pc端：大屏幕 col-lg- >1200px  */
+ @media screen and (min-width:1200px){
+
+}  
+
+

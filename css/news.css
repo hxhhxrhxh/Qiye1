@@ -1,0 +1,404 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-28 22:19:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 09:24:01
+*/
+
+/* 固定开始 */
+.fix{
+	position: fixed;
+	top:375px;
+	right: 0;
+	z-index: 99;
+}
+.fix ul li{
+	width: 60px;
+	background: #77CC5B;
+}
+.fix ul li:nth-child(3){
+	background: #4BB344;
+}
+.fix ul li i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+}
+.fix ul li:hover{
+	background: #4BB344;
+}
+/* 固定结束 */
+
+nav{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+nav .con{
+	width: 100%;
+	height: 80px;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+
+nav .picture{
+	height: 100%;
+	padding-top:10px;
+}
+nav .picture img{
+	width: 167px;
+	/* height: 56px; */
+	display: block;
+	margin:0 auto;
+}
+nav .title{
+	width: 100%;
+	margin-top: 10px;
+}
+nav .title ul{
+	margin-bottom: 0;
+}
+nav .title .title-list{
+	display: block;
+	background:#60C14D;
+}
+nav .title .title-list a{
+	text-align: center;
+	color: white;
+}
+nav .title .title-list .xia{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+nav .title .title-text{
+	
+	display: none;
+}
+nav .title ul li a{
+	color: #757575;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	/* border-bottom: 1px solid #757575; */
+	display: block;
+	/* height: 65px; */
+	line-height: 40px;
+}
+nav .title ul li a:hover{
+	border-bottom: 1px solid #757575;
+}
+nav .sign{
+	width: 20%;
+	display: none;
+}
+/* 关于我们的头部开始 */
+
+.top{
+	width: 100%;
+	
+	
+}
+.top .container{
+	/* background: #efefef; */
+	margin-bottom: 10px;
+}
+.top .top-word{
+	width: 100%;
+	height: 40px;
+	background:#efefef;
+	 margin-top: 36px;
+	padding: 10px 20px;
+}
+.top .top-word a{
+	color:  rgb(96, 193, 77);
+	text-decoration: none;
+}
+.top .top-word span{
+	color: #999;
+}
+
+/* 关于我们的头部结束 */
+
+/* 农产品中心开始 */
+.product{
+	/* width: 100%; */
+	height: 750px;
+	/* background: grey; */
+}
+.product .product-big{
+	display: flex;
+	flex-direction: column;
+
+}
+.product .product-title{
+	width: 100%;
+	height: 70px;
+	/* background: yellow; */
+	padding-bottom: 70px;
+}
+
+
+.product-title .our{
+	/* width: 100%; */
+	height: 70px;
+	background-color: rgb(96, 193, 77);
+	padding-left: 30px;
+}
+/* .our .ours{
+	width: 100%;
+	
+	background:red;
+	background: yellow;
+	
+} */
+
+.product-title .our .ours-title{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 70px;
+}
+.product-title .our .ours-subtitle{
+	/* float: left; */
+	font-size: 12px;
+	color: #fff;
+	line-height: 70px;
+}
+.product-title .our .ours-line{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	margin-top: -20px;
+	/* padding-top: 50px; */
+	/* padding-bottom: 20px; */
+}
+/* 关于我们结束 */
+
+
+
+.product  .menu{
+	/* width: 100%; */
+	/* margin-top: 73px; */
+	border:1px solid #E0E0E0;
+	text-align: left;
+
+}
+.product  .menu .menu-text{
+	line-height: 40px;
+	height: 40px;
+	background:#fff;
+	/* border:1px solid #E0E0E0; */
+	padding-left: 10px;
+}
+.product  .menu .menu-list{
+	line-height: 40px;
+	height: 40px;
+	background:#fff;
+	/* border:1px solid #E0E0E0; */
+	padding-left: 10px;
+
+	/* display: none; */
+}
+.product  .menu .menu-list:hover{
+	color:#60C14D;
+}
+.product  .menu .menu-text:hover{
+	color:#60C14D;
+}
+.product a{
+	color: #666;
+	text-decoration: none;
+}
+.product-list{
+	margin-top:10px;
+	/* justify-content: center; */
+}
+.product .product-list .product-big{
+	width: 100%;
+	height: 100%;
+	padding: 10px 10px;
+	border: 1px solid #F2F2F2;
+	margin-bottom: 20px;
+}
+.product .product-list img{
+	width:150px;
+	height: 92px;
+}
+.product .product-list h2{
+	color: #777777;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 0;
+}
+.product .product-list h2:hover{
+	color:#60C14D;
+}
+.product .product-list p{
+	font-size: 12px;
+    color: #bababa;
+}
+.product .product-list span{
+	font-size: 12px;
+    color: #bababa;
+}
+.product-list .page-big{
+	/* justify-content: center; */
+	width: 100%;
+	display: none;
+}
+.product-list .page{
+	width: 172px;
+	height: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	color: #777;
+	font-size: 12px;
+	line-height: 20px;
+	/* justify-content: center; */
+
+}
+.product-list .page .page-list{
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+
+}
+.product-list .page .page-next{
+	border: 1px solid #ccc;
+}
+.product-list .page .page-last{
+	border: 1px solid #ccc;
+}
+/* 农产品中心结束 */
+
+/* 平板：小屏幕 col -sm- >768px */
+@media screen and (min-width: 768px){
+
+}
+
+
+/* 普通pc端：中等屏幕 col-md- >992px */
+
+@media screen and (min-width:992px){
+	nav .con{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .picture img{
+		margin: 0;
+	}
+	nav .title{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	nav .title ul{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .title ul li{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	
+	nav .title .title-text{	
+		display: block;
+	}
+	nav .title .title-list{
+		background: white;
+	}
+	nav .title .title-list .black{
+		color: #757575;
+		border-bottom: 1px solid #757575;
+	}
+	nav .title .title-list .xia{
+		display: none;
+	}
+	nav .sign{
+		display: flex;
+		flex-direction: row;
+
+	}
+	nav .sign a{
+	color: #757575;
+	font-size: 14px;
+	line-height: 80px;
+	text-decoration: none;
+	padding-left: 5px;
+	}
+	nav .sign i img{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 32px;
+	margin-left: 10px;
+	}
+.top .top-word{
+	margin-top: 0;
+}
+.top .container{
+	margin-bottom: 10px;
+}
+.product .container{
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+}
+.product .product-big{
+	width:25%;
+
+}
+.product  .menu{
+	/* width: 30%; */
+}
+.product .product-list{
+	width: 75%;
+	margin-left: 20px;
+}
+.product  .menu .menu-list{
+	display: block;
+	text-align: left;
+	padding-left: 30px;
+	border:1px solid #E0E0E0;
+}
+.product  .menu .menu-text{
+	padding-left: 30px;
+	border:1px solid #E0E0E0;
+
+}
+.product-list{
+	margin-top:0;
+	border: 1px solid #E0E0E0;
+}
+.product .product-list .product-big{
+
+	display: flex;
+	/* justify-content: space-between; */
+	flex-direction: row;
+	margin: 0;
+}
+.product .product-list .product-list-word{
+	padding-left: 15px;
+}
+.product .product-list img{
+	margin: 10px 0;
+}
+.product-list .page-big{
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 25px;
+}
+}
+
+
+
+ /* 大屏幕pc端：大屏幕 col-lg- >1200px  */
+ @media screen and (min-width:1200px){
+
+}  

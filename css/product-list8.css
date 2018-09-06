@@ -1,0 +1,409 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-30 10:38:40
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 10:41:20
+*/
+/* 公共样式：手机：小小屏/col-xs <768px */
+/* 顶部导航开始 */
+
+/* 固定开始 */
+.fix{
+	position: fixed;
+	top:375px;
+	right: 0;
+	z-index: 99;
+}
+.fix ul li{
+	width: 60px;
+	background: #77CC5B;
+}
+.fix ul li:nth-child(3){
+	background: #4BB344;
+}
+.fix ul li i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+}
+.fix ul li:hover{
+	background: #4BB344;
+}
+/* 固定结束 */
+
+nav{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+nav .con{
+	width: 100%;
+	height: 80px;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+
+nav .picture{
+	height: 100%;
+	padding-top:10px;
+}
+nav .picture img{
+	width: 167px;
+	/* height: 56px; */
+	display: block;
+	margin:0 auto;
+}
+nav .title{
+	width: 100%;
+	margin-top: 10px;
+}
+nav .title ul{
+	margin-bottom: 0;
+}
+nav .title .title-list{
+	display: none;
+	background:#60C14D;
+}
+nav .title .title-list a{
+	text-align: center;
+	color: white;
+}
+nav .title .title-list .xia{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+nav .title .title-text{
+	
+	display: none;
+}
+nav .title ul li a{
+	color: #757575;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	/* border-bottom: 1px solid #757575; */
+	display: block;
+	/* height: 65px; */
+	line-height: 40px;
+}
+nav .title ul li a:hover{
+	border-bottom: 1px solid #757575;
+}
+nav .sign{
+	width: 20%;
+	display: none;
+}
+/* 关于我们的头部开始 */
+
+.top{
+	width: 100%;
+	
+	
+}
+.top .container{
+	/* background: #efefef; */
+	margin-bottom: 10px;
+}
+.top .top-word{
+	width: 100%;
+	height: 40px;
+	background:#efefef;
+	 /* margin-top: 36px; */
+	padding: 10px 20px;
+}
+.top .top-word a{
+	color:  rgb(96, 193, 77);
+	text-decoration: none;
+}
+.top .top-word span{
+	color: #999;
+}
+
+/* 关于我们的头部结束 */
+
+/* 农产品中心开始 */
+.product{
+	/* width: 100%; */
+	height: 1150px;
+	/* background: grey; */
+}
+.product .product-big{
+	display: flex;
+	flex-direction: column;
+
+}
+.product .product-title{
+	width: 100%;
+	height: 70px;
+	/* background: yellow; */
+	padding-bottom: 70px;
+}
+
+
+.product-title .our{
+	/* width: 100%; */
+	height: 70px;
+	background-color: rgb(96, 193, 77);
+	padding-left: 30px;
+}
+/* .our .ours{
+	width: 100%;
+	
+	background:red;
+	background: yellow;
+	
+} */
+
+.product-title .our .ours-title{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 70px;
+}
+.product-title .our .ours-subtitle{
+	/* float: left; */
+	font-size: 12px;
+	color: #fff;
+	line-height: 70px;
+}
+.product-title .our .ours-line{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	margin-top: -20px;
+	/* padding-top: 50px; */
+	/* padding-bottom: 20px; */
+}
+/* 关于我们结束 */
+
+
+
+.product  .menu{
+	/* width: 100%; */
+	/* margin-top: 73px; */
+	
+	text-align: center;
+}
+.product  .menu .menu-text{
+	line-height: 40px;
+	height: 40px;
+	background:#fff;
+	border:1px solid #E0E0E0;
+	
+}
+.product  .menu .menu-list{
+	line-height: 40px;
+	height: 40px;
+	background:#fff;
+	border:1px solid #E0E0E0;
+	display: none;
+}
+.product  .menu .menu-list:hover{
+	color:#60C14D;
+}
+
+
+.product a{
+	color: #666;
+	text-decoration: none;
+}
+
+
+.product .product-list h2{
+	margin: 0;
+	text-align: center;
+	font-size: 24px;
+	color: #333;
+	padding:20px 0;
+}
+
+
+.product .product-list {
+	
+	padding: 0;
+}
+.product .product-list .date{
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	color:#9E9E9E;
+}
+.product .product-list .picc{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.product .product-list .picc img{
+	width:40%;
+	margin-left: 30%;
+}
+.product .product-list .list-small{
+	border: 1px solid #C6C6C6;
+	margin-top: 30px;
+	padding: 10px 20px;
+}
+.product .product-list p{
+    color: #696969;
+    line-height: 30px;
+}
+.product .product-list button{
+	width:100px;
+	height: 36px;
+	background: #333;
+	color: #fff;
+	border: none;
+	margin: 20px 0;
+	/* margin: 0 auto;  */
+}
+.product .product-list button:hover{
+	background: #a2a2a2;
+}
+.product .share{
+	/* height: 40px; */
+	color: #aaaaaa;	
+	display: flex;
+	flex-direction: row;
+}
+.product .share i{
+	margin-left: 8px;
+	font-size: 20px;
+	line-height: 20px;
+}
+.product .share .icon-weixin{
+	color:#7BC549;
+	font-size: 23px;
+}
+
+.product .share .icon-weibo{
+	color:#FF7543;
+	font-size: 23px;
+}
+.product .share .icon-douban{
+	color:#4DB254;
+}
+.product .share .icon-in{
+	color:#55ACEE;
+}
+.product .share h3{
+	font-size: 16px;
+	margin: 0;
+	padding-bottom: 10px;
+	/* line-height:40px;  */
+	
+}
+
+/* 农产品中心结束 */
+
+/* 平板：小屏幕 col -sm- >768px */
+@media screen and (min-width: 768px){
+
+}
+
+
+/* 普通pc端：中等屏幕 col-md- >992px */
+
+@media screen and (min-width:992px){
+	nav .con{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .picture img{
+		margin: 0;
+	}
+	nav .title{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	nav .title ul{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .title ul li{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	
+	nav .title .title-text{	
+		display: block;
+	}
+	nav .title .title-list{
+		background: white;
+	}
+	nav .title .title-list .black{
+		color: #757575;
+		border-bottom: 1px solid #757575;
+	}
+	nav .title .title-list .xia{
+		display: none;
+	}
+	nav .sign{
+		display: flex;
+		flex-direction: row;
+
+	}
+	nav .sign a{
+	color: #757575;
+	font-size: 14px;
+	line-height: 80px;
+	text-decoration: none;
+	padding-left: 5px;
+	}
+	nav .sign i img{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 32px;
+	margin-left: 10px;
+	}
+.top .top-word{
+	margin-top: 0;
+}
+.top .container{
+	margin-bottom: 10px;
+}
+.product .container{
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-between;
+}
+.product .product-big{
+	width:25%;
+	/* background: yellow; */
+}
+.product  .menu{
+	/* width: 30%; */
+}
+.product .product-list{
+	width: 75%;
+	/* background: red; */
+	padding: 0 15px;
+	/* padding-left: 30px; */
+}
+.product  .menu .menu-list{
+	display: block;
+	text-align: left;
+	padding-left: 30px;
+}
+.product  .menu .menu-text{
+	display: none;
+
+}
+.product .product-list .list-small{
+	/* background:orange; */
+	padding: 35px 40px;
+	border: 1px solid #C6C6C6;
+	margin: 0;
+}
+
+
+}
+
+
+
+/* 大屏幕pc端：大屏幕 col-lg- >1200px  */
+ @media screen and (min-width:1200px){
+
+}  

@@ -1,0 +1,291 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-29 09:11:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-08-30 08:51:41
+*/
+
+body{
+	height: 700px;
+
+}
+/* 固定开始 */
+.fix{
+	position: fixed;
+	top:375px;
+	right: 0;
+	z-index: 99;
+}
+.fix ul li{
+	width: 60px;
+	background: #77CC5B;
+}
+.fix ul li:nth-child(3){
+	background: #4BB344;
+}
+.fix ul li i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+}
+.fix ul li:hover{
+	background: #4BB344;
+}
+/* 固定结束 */
+
+
+nav{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+nav .con{
+	width: 100%;
+	height: 80px;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+
+nav .picture{
+	height: 100%;
+	padding-top:10px;
+}
+nav .picture img{
+	width: 167px;
+	/* height: 56px; */
+	display: block;
+	margin:0 auto;
+}
+nav .title{
+	width: 100%;
+	margin-top: 10px;
+}
+nav .title ul{
+	margin-bottom: 0;
+}
+nav .title .title-list{
+	display: block;
+	background:#60C14D;
+}
+nav .title .title-list a{
+	text-align: center;
+	color: white;
+}
+nav .title .title-list .xia{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+nav .title .title-text{
+	
+	display: none;
+}
+nav .title ul li a{
+	color: #757575;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	/* border-bottom: 1px solid #757575; */
+	display: block;
+	/* height: 65px; */
+	line-height: 40px;
+}
+nav .title ul li a:hover{
+	border-bottom: 1px solid #757575;
+}
+nav .sign{
+	width: 20%;
+	display: none;
+}
+
+
+/* 联系我们的头部开始 */
+
+.top{
+	width: 100%;
+
+	/* background: yellow; */
+}
+.top .container{
+	/* background: #efefef; */
+	/* margin-bottom: 10px; */
+}
+.top .top-word{
+	/* width: 100%; */
+	height: 40px;
+	background: #efefef;
+	margin-top: 40px;
+	padding: 10px 20px;
+	
+
+}
+.top .top-word a{
+	color:  rgb(96, 193, 77);
+	text-decoration: none;
+}
+.top .top-word span{
+	color: #999;
+}
+/* 联系我们头部结束 */
+
+/* 欢迎访问开始 */
+
+main .contact{
+	display: flex;
+	flex-direction: column;
+}
+.map .map-pic img{
+	width: 100%;
+}
+main .contact h2{
+    color: #696969;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+main .contact label{
+	color: rgb(102, 102, 102);
+	padding-top: 10px;
+	font-weight: 400;
+}
+
+main input.sub{
+	width: 110px;
+	height: 35px;
+	background:#60C14D; 
+	color: #fff;
+	margin: 20px 0;
+	border: none;
+	font-weight: 600;
+	font-size:15px;
+}
+/* 欢迎访问结束 */
+
+
+/* 地图开始  */
+.map .map-word{
+	font-size: 14px;
+	color: #333;
+	
+}
+.map .map-word p{
+	line-height: 30px;
+	margin-top: 20px;
+}
+/* 地图结束 */
+
+
+
+
+
+
+
+/* 平板：小屏幕 col -sm- >768px */
+@media screen and (min-width: 768px){
+	.top .container{
+		margin-bottom: 10px;
+	}
+	.big .big-list{
+		border: 1px solid #DBDBDB;
+		height:500px;
+	}
+	.map .container{
+		padding: 20px 20px;
+	}
+	main{
+		margin-top: 60px;
+	}
+	.map{
+	margin-top: 25px;
+	}
+}
+
+
+
+
+/* 普通pc端：中等屏幕 col-md- >992px */
+
+@media screen and (min-width:992px){
+	nav .con{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .picture img{
+		margin: 0;
+	}
+	nav .title{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	nav .title ul{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .title ul li{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	
+	nav .title .title-text{	
+	display: block;
+	}
+	nav .title .title-list{
+		background: white;
+	}
+	nav .title .title-list .black{
+		color: #757575;
+		border-bottom: 1px solid #757575;
+	}
+	nav .title .title-list .xia{
+		display: none;
+	}
+	nav .sign{
+		display: flex;
+		flex-direction: row;
+
+	}
+	nav .sign a{
+	color: #757575;
+	font-size: 14px;
+	line-height: 80px;
+	text-decoration: none;
+	padding-left: 5px;
+	}
+	nav .sign i img{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 32px;
+	margin-left: 10px;
+	}
+	
+	.top .top-word{
+		margin: 0;
+	}
+	.top .container{
+		margin-bottom: 10px;
+	}
+
+
+	.big .big-list{
+		border: 1px solid #DBDBDB;
+		height:500px;
+	}
+	.map .container{
+		padding: 20px 20px;
+	}
+	main{
+		margin-top: 60px;
+	}
+	.map{
+	margin-top: 25px;
+	}
+	}
+
+ /* 大屏幕pc端：大屏幕 col-lg- >1200px  */
+ @media screen and (min-width:1200px){
+
+}  

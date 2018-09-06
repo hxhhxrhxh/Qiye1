@@ -1,0 +1,278 @@
+/*
+* @Author: Administrator
+* @Date:   2018-08-27 23:57:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-09-01 22:08:00
+*/
+
+/* 固定开始 */
+.fix{
+	position: fixed;
+	top:375px;
+	right: 0;
+	z-index: 99;
+}
+.fix ul li{
+	width: 60px;
+	background: #77CC5B;
+}
+.fix ul li:nth-child(3){
+	background: #4BB344;
+}
+.fix ul li i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
+}
+.fix ul li:hover{
+	background: #4BB344;
+}
+/* 固定结束 */
+nav{
+	width: 100%;
+	height: 80px;
+	background: white;
+}
+
+nav .con{
+	/* width: 100%; */
+	height: 80px;
+	/* background: yellow; */
+	display: flex;
+	flex-direction: column;
+}
+nav .container{
+    margin-right: auto;
+    margin-left:auto;
+}
+nav .picture{
+	height: 100%;
+	padding-top:10px;
+}
+nav .picture img{
+	width: 167px;
+	/* height: 56px; */
+	display: block;
+	margin:0 auto;
+}
+nav .title{
+	width: 100%;
+	margin-top: 10px;
+}
+nav .title ul{
+	margin-bottom: 0;
+}
+nav .title .title-list{
+	display: block;
+	background:#60C14D;
+}
+nav .title .title-list a{
+	text-align: center;
+	color: white;
+}
+nav .title .title-list .xia{
+	float: right;
+	margin-right: 20px;
+	margin-top: -40px;
+}
+nav .title .title-text{
+	
+	display: none;
+}
+nav .title ul li a{
+	color: #757575;
+	font-size: 14px;
+	text-decoration: none;
+	text-align: center;
+	/* border-bottom: 1px solid #757575; */
+	display: block;
+	/* height: 65px; */
+	line-height: 40px;
+}
+nav .title ul li a:hover{
+	border-bottom: 1px solid #757575;
+}
+nav .sign{
+	width: 20%;
+	display: none;
+}
+
+/* 关于我们的头部开始 */
+.top .top-word{
+	background: #efefef;
+	margin-top: 40px;
+	padding: 10px 20px;
+}
+.top .top-word a{
+	color:  rgb(96, 193, 77);
+	text-decoration: none;
+}
+
+.top .top-word span{
+	color: #999;
+}
+
+/* 关于我们的头部结束 */
+
+/* 关于我们开始  */
+.word p{
+	/* color: rgb(141, 144, 149); */
+	color: #666;
+	padding: 10px 20px;
+	line-height: 30px;
+}
+.word .word-pic{
+	padding: 10px 20px;
+}
+
+.our{
+	width: 100%;
+	height: 70px;
+	background-color: rgb(96, 193, 77);
+	padding-left: 30px;
+}
+/* .our .ours{
+	width: 100%;
+	
+	background:red;
+	background: yellow;
+	
+} */
+
+.our .ours-title{
+	float: left;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	line-height: 70px;
+}
+.our .ours-subtitle{
+	/* float: left; */
+	font-size: 12px;
+	color: #fff;
+	line-height: 70px;
+}
+.our .ours-line{
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	margin-top: -20px;
+	/* padding-top: 50px; */
+	/* padding-bottom: 20px; */
+}
+/* 关于我们结束 */
+
+.word{
+	
+}
+.word .con{
+	width: 100%;
+	/* height: 80px; */
+	/* background:#efefef; */
+	padding:20px 15px;
+}
+.word .word-pic img{
+	width:100%;
+}
+/* .biger .container{
+	background: #efefef;
+}
+ */
+/* 平板：小屏幕 col -sm- >768px */
+@media screen and (min-width: 768px){
+
+/* nav .container{
+	width: 100%;
+	padding-right:100px;
+    padding-left: 100px;
+    margin-right: 0;
+    margin-left: 0;
+} */
+}
+
+
+
+
+/* 普通pc端：中等屏幕 col-md- >992px */
+
+@media screen and (min-width:992px){
+	nav .con{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .picture img{
+		margin: 0;
+	}
+	nav .title{
+		padding-top: 0;
+		margin-top: 0;
+	}
+	nav .title ul{
+		display: flex;
+		flex-direction: row;
+	}
+	nav .title ul li{
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+	nav .title .title-text{	
+		display: block;
+	}
+	nav .title .title-list{
+		background: white;
+	}
+	nav .title .title-list .black{
+		color: #757575;
+		border-bottom: 1px solid #757575;
+	}
+	nav .title .title-list .xia{
+		display: none;
+	}
+	nav .sign{
+		display: flex;
+		flex-direction: row;
+
+	}
+	nav .sign a{
+	color: #757575;
+	font-size: 14px;
+	line-height: 80px;
+	text-decoration: none;
+	padding-left: 5px;
+	}
+	nav .sign i img{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: 32px;
+	margin-left: 10px;
+	}
+	.top .top-word{
+	margin: 0;
+	}
+	.top .container{
+	margin-bottom: 10px;
+	}
+	.biger .biger-con{
+		background: #f4f4f4;
+	}
+	.biger .biger-con{
+	/* padding-left: 0; */
+	display: flex;
+	flex-direction: row;
+	}
+	.biger .our{
+	width: 30%;
+	}
+	.biger .word{
+	width: 70%;
+	}
+
+}
+
+
+ /* 大屏幕pc端：大屏幕 col-lg- >1200px  */
+ @media screen and (min-width:1200px){
+
+}  
