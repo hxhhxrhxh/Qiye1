@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-28 10:29:16
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-30 08:51:56
+* @Last Modified time: 2018-09-09 21:26:41
 */
 body{
 	height:750px;
@@ -30,6 +30,20 @@ body{
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 

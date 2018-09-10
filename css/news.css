@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-28 22:19:09
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-30 09:24:01
+* @Last Modified time: 2018-09-09 21:27:38
 */
 
 /* 固定开始 */
@@ -27,6 +27,20 @@
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 
@@ -124,17 +138,17 @@ nav .sign{
 /* 关于我们的头部结束 */
 
 /* 农产品中心开始 */
-.product{
+.new{
 	/* width: 100%; */
 	height: 750px;
 	/* background: grey; */
 }
-.product .product-big{
+.new .new-big{
 	display: flex;
 	flex-direction: column;
 
 }
-.product .product-title{
+.new .new-title{
 	width: 100%;
 	height: 70px;
 	/* background: yellow; */
@@ -142,7 +156,7 @@ nav .sign{
 }
 
 
-.product-title .our{
+.new-title .our{
 	/* width: 100%; */
 	height: 70px;
 	background-color: rgb(96, 193, 77);
@@ -156,20 +170,20 @@ nav .sign{
 	
 } */
 
-.product-title .our .ours-title{
+.new-title .our .ours-title{
 	float: left;
 	font-size: 18px;
 	color: #fff;
 	font-weight: 600;
 	line-height: 70px;
 }
-.product-title .our .ours-subtitle{
+.new-title .our .ours-subtitle{
 	/* float: left; */
 	font-size: 12px;
 	color: #fff;
 	line-height: 70px;
 }
-.product-title .our .ours-line{
+.new-title .our .ours-line{
 	width: 100%;
 	height: 1px;
 	background: #fff;
@@ -181,21 +195,21 @@ nav .sign{
 
 
 
-.product  .menu{
+.new  .newmenu{
 	/* width: 100%; */
 	/* margin-top: 73px; */
 	border:1px solid #E0E0E0;
 	text-align: left;
 
 }
-.product  .menu .menu-text{
+.new  .newmenu .newmenu-text{
 	line-height: 40px;
 	height: 40px;
 	background:#fff;
 	/* border:1px solid #E0E0E0; */
 	padding-left: 10px;
 }
-.product  .menu .menu-list{
+.new  .newmenu .newmenu-list{
 	line-height: 40px;
 	height: 40px;
 	background:#fff;
@@ -204,54 +218,60 @@ nav .sign{
 
 	/* display: none; */
 }
-.product  .menu .menu-list:hover{
+
+.new .new-big .active2{
+	color:#60C14D
+}
+/* .new  .newmenu .newmenu-list:hover{
 	color:#60C14D;
 }
-.product  .menu .menu-text:hover{
+ */
+/* .new  .newmenu .newmenu-text:hover{
 	color:#60C14D;
-}
-.product a{
+} */
+.new a{
 	color: #666;
 	text-decoration: none;
 }
-.product-list{
+.news-all .new-list{
 	margin-top:10px;
+	
 	/* justify-content: center; */
 }
-.product .product-list .product-big{
+.new .news-all .new-list .new-big{
 	width: 100%;
 	height: 100%;
 	padding: 10px 10px;
 	border: 1px solid #F2F2F2;
 	margin-bottom: 20px;
 }
-.product .product-list img{
+.new .news-all .new-list img{
 	width:150px;
 	height: 92px;
 }
-.product .product-list h2{
+.new .news-all .new-list h2{
 	color: #777777;
     font-size: 16px;
     margin: 0;
     padding: 10px 0;
 }
-.product .product-list h2:hover{
+.new .news-all .new-list h2:hover{
 	color:#60C14D;
 }
-.product .product-list p{
+.new .news-all .new-list p{
 	font-size: 12px;
     color: #bababa;
 }
-.product .product-list span{
+.new .news-all .new-list span{
 	font-size: 12px;
     color: #bababa;
 }
-.product-list .page-big{
+.news-all  .page-big{
 	/* justify-content: center; */
 	width: 100%;
 	display: none;
 }
-.product-list .page{
+.news-all .new-list .page{
 	width: 172px;
 	height: 20px;
 	display: flex;
@@ -260,20 +280,18 @@ nav .sign{
 	color: #777;
 	font-size: 12px;
 	line-height: 20px;
+
 	/* justify-content: center; */
 
 }
-.product-list .page .page-list{
-	width: 20px;
-	height: 20px;
-	border: 1px solid #ccc;
-	text-align: center;
 
+.news-all .new-list .news-all .page-big .active3{
+	background: green;
 }
-.product-list .page .page-next{
+.news-all .new-list .page .page-next{
 	border: 1px solid #ccc;
 }
-.product-list .page .page-last{
+.news-all .new-list .page .page-last{
 	border: 1px solid #ccc;
 }
 /* 农产品中心结束 */
@@ -345,54 +363,84 @@ nav .sign{
 .top .container{
 	margin-bottom: 10px;
 }
-.product .container{
+.new .container{
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: space-between;
 }
-.product .product-big{
+.new .new-big{
 	width:25%;
 
 }
-.product  .menu{
+.new  .newmenu{
 	/* width: 30%; */
 }
-.product .product-list{
-	width: 75%;
-	margin-left: 20px;
+.new .news-all {
+	position: relative;
 }
-.product  .menu .menu-list{
+.new .news-all .new-list{
+	/* width: 75%; */
+	margin-left: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.new  .newmenu .newmenu-list{
 	display: block;
 	text-align: left;
 	padding-left: 30px;
 	border:1px solid #E0E0E0;
+	cursor: pointer;
 }
-.product  .menu .menu-text{
+.new  .newmenu .newmenu-text{
 	padding-left: 30px;
 	border:1px solid #E0E0E0;
+	cursor: pointer;
 
 }
-.product-list{
+.news-all .new-list{
 	margin-top:0;
 	border: 1px solid #E0E0E0;
+	/* background: yellow; */
 }
-.product .product-list .product-big{
+.new .news-all .new-list .new-big{
 
 	display: flex;
 	/* justify-content: space-between; */
 	flex-direction: row;
 	margin: 0;
 }
-.product .product-list .product-list-word{
+.new .news-all .new-list .new-list-word{
 	padding-left: 15px;
 }
-.product .product-list img{
+.new .news-all .new-list img{
 	margin: 10px 0;
 }
-.product-list .page-big{
-	display: block;
-	margin-bottom: 15px;
-	margin-top: 25px;
+.new .page-big{
+	/* background: red; */
+	position: absolute;
+	top: 830px;
+	left: 780px;
+	display: flex;
+	flex-direction: row;
+	/* display: inline-block; */
+	/* margin-bottom: 15px;
+	margin-top: 25px; */
+}
+.new .page-big span.page-list{
+	width: 20px;
+	height: 20px;
+	/* padding-right: 10px; */
+	display: none;
+	border: 1px solid #ccc;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #000;
+	display: inline-block;
+}
+.new .page-big .active3{
+	background: green;
 }
 }
 

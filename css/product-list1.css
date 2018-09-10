@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-29 22:05:51
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-30 09:30:29
+* @Last Modified time: 2018-09-09 21:28:01
 */
 /* 公共样式：手机：小小屏/col-xs <768px */
 /* 顶部导航开始 */
@@ -29,6 +29,20 @@
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 
@@ -214,7 +228,7 @@ nav .sign{
 }
 
 
-.product .product-list h2{
+.product .produce-all .product-list1 h2{
 	margin: 0;
 	text-align: center;
 	font-size: 24px;
@@ -223,33 +237,33 @@ nav .sign{
 }
 
 
-.product .product-list {
+.product .produce-all .product-list1 {
 	
 	padding: 0;
 }
-.product .product-list .date{
+.product .produce-all .product-list1 .date{
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	color:#9E9E9E;
 }
-.product .product-list .picc{
+.product .produce-all .product-list1 .picc{
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
-.product .product-list .picc img{
+.product .produce-all .product-list1 .picc img{
 	width:40%;
 	margin-left: 30%;
 }
-.product .product-list .list-small{
+.product .produce-all .product-list1 .list-small{
 	border: 1px solid #C6C6C6;
 	margin-top: 30px;
 	padding: 10px 20px;
 }
-.product .product-list p{
+.product .produce-all .product-list1 p{
     color: #696969;
     line-height: 30px;
 }
-.product .product-list button{
+.product .produce-all .product-list1 button{
 	width:100px;
 	height: 36px;
 	background: #333;
@@ -258,7 +272,7 @@ nav .sign{
 	margin: 20px 0;
 	/* margin: 0 auto;  */
 }
-.product .product-list button:hover{
+.product .produce-all .product-list1 button:hover{
 	background: #a2a2a2;
 }
 .product .share{
@@ -294,6 +308,48 @@ nav .sign{
 	/* line-height:40px;  */
 	
 }
+.product .produce-all .product-list ul{
+	background: red;
+	
+}
+
+.product .produce-all .product-list ul li{
+	/* background: pink; */
+	margin-bottom: 20px;
+
+}
+.product .produce-all .product-list ul li .small{
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+	border: 1px solid #C6C6C6;
+}
+.product .produce-all .product-list ul li img{
+	width: 100%;
+	height: 100%;
+}
+.product .produce-all .product-list ul li h2{
+	font-size:14px;
+	color: #888888;
+	text-align: center;
+	}
+	.product .produce-all .product-list ul li p{
+	color: #a5a5a5;
+	}
+	.product .produce-all{
+		position: relative;
+		/* background: yellow; */
+	}
+	.product .product-list{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	/* cursor: pointer; */
+	}
+	.product .product-list{
+		display: none;
+	}
 
 /* 农产品中心结束 */
 
@@ -376,22 +432,29 @@ nav .sign{
 .product  .menu{
 	/* width: 30%; */
 }
-.product .product-list{
-	width: 75%;
+.product .produce-all{
+	position: relative;
+}
+.product .produce-all .product-list1{
+	/* width: 75%; */
 	/* background: red; */
 	padding: 0 15px;
 	/* padding-left: 30px; */
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 .product  .menu .menu-list{
 	display: block;
 	text-align: left;
 	padding-left: 30px;
+	cursor: pointer;
 }
 .product  .menu .menu-text{
 	display: none;
 
 }
-.product .product-list .list-small{
+.product .produce-all .product-list1 .list-small{
 	/* background:orange; */
 	padding: 35px 40px;
 	border: 1px solid #C6C6C6;

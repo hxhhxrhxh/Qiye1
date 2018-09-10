@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-30 10:51:35
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-30 10:56:10
+* @Last Modified time: 2018-09-09 21:27:40
 */
 /* 固定开始 */
 .fix{
@@ -26,6 +26,20 @@
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 nav{

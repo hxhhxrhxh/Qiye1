@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-28 15:06:02
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-08-30 09:20:35
+* @Last Modified time: 2018-09-09 21:41:36
 */
 /* 公共样式：手机：小小屏/col-xs <768px */
 /* 顶部导航开始 */
@@ -29,6 +29,21 @@
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+	cursor: pointer;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 
@@ -196,9 +211,10 @@ nav .sign{
 	background:#fff;
 	border:1px solid #E0E0E0;	
 }
-.product  .menu .menu-list:hover{
+
+/* .product  .menu .menu-list:hover{
 	color:#60C14D;
-}
+} */
 .product  .menu .menu-list{
 	line-height: 40px;
 	height: 40px;
@@ -212,34 +228,35 @@ nav .sign{
 }
 .product .product-list{
 	/* padding-left: 30px; */
+	/* position: absolute; */
 
 }
-.product .product-list ul{
+.product .produce-all .product-list ul{
 	background: red;
 	
 }
 
-.product .product-list ul li{
+.product .produce-all .product-list ul li{
 	/* background: pink; */
 	margin-bottom: 20px;
 
 }
-.product .product-list ul li .small{
+.product .produce-all .product-list ul li .small{
 	width: 100%;
 	height: 100%;
 	padding: 0 20px;
 	border: 1px solid #C6C6C6;
 }
-.product .product-list ul li img{
+.product .produce-all .product-list ul li img{
 	width: 100%;
 	height: 100%;
 }
-.product .product-list ul li h2{
+.product .produce-all .product-list ul li h2{
 	font-size:14px;
 	color: #888888;
 	text-align: center;
 }
-.product .product-list ul li p{
+.product .produce-all .product-list ul li p{
 	color: #a5a5a5;
 }
 
@@ -306,36 +323,53 @@ nav .sign{
 	margin-top: 32px;
 	margin-left: 10px;
 	}
-.top .top-word{
+	.top .top-word{
 	margin-top: 0;
-}
-.top .container{
+	}
+	.top .container{
 	margin-bottom: 10px;
-}
-.product .container{
+	}
+	.product .container{
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: space-between;
-}
-.product .product-big{
-	width:25%;
+	}
+	.product .product-big{
+	 width:25%;
 	/* background: yellow; */
-}
-.product  .menu{
+	}
+	.product  .menu{
 	/* width: 30%; */
-}
-.product .product-list{
-	width: 75%;
-}
-.product  .menu .menu-list{
+	}
+	.product .product-list{
+	/* width: 75%; */
+	}
+	.product  .menu .menu-list{
 	display: block;
 	text-align: left;
 	padding-left: 30px;
+	cursor: pointer;
+	}
+	.product  .menu .menu-text{
+	display: none;
+	
+	}
+	.product .product-big .active1{
+	color:#60C14D;
+	/* display: none; */
 }
-.product  .menu .menu-text{
+	.product .produce-all{
+		position: relative;
+		/* background: yellow; */
+	}
+	.product .product-list{
+	position: absolute;
+	top: 0;
+	left: 0;
 	display: none;
 
-}
+	/* cursor: pointer; */
+	}
 }
 
 

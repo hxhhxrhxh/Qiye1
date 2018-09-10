@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-08-26 13:44:39
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-06 19:00:20
+* @Last Modified time: 2018-09-09 22:32:46
 */
 /* 公共样式：手机：小小屏/col-xs <768px */
 /* 顶部导航开始 */
@@ -26,9 +26,24 @@
 	font-size: 40px;
 	color: white;
 	display: block;
+
 }
 .fix ul li:hover{
 	background: #4BB344;
+}
+.back{
+	position: fixed;
+	top:546px;
+	right: 0;
+	width: 60px;
+	background: #77CC5B;
+	z-index: 99;
+}
+.back i{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	display: block;
 }
 /* 固定结束 */
 
@@ -781,6 +796,9 @@ footer .big{
 	color:#80BB01;
 	text-align: center;
 	padding-left: 25px;
+}
+.fresh a{
+	text-decoration: none;
 }
 .fresh{
 	margin:100px 0;
