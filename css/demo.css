@@ -1,11 +1,12 @@
 /*
 * @Author: Administrator
 * @Date:   2018-08-26 13:44:39
-* @Last Modified by:   Administrator
-* @Last Modified time: 2018-09-09 22:32:46
+* @Last Modified by:   hxhhxrhxh
+* @Last Modified time: 2018-09-15 14:35:19
 */
 /* 公共样式：手机：小小屏/col-xs <768px */
 /* 顶部导航开始 */
+
 
 /* 固定开始 */
 .fix{
@@ -134,26 +135,42 @@ nav .sign{
 }
 
 
-.banner{
+.banner{	
 	width: 100%;
-	height: 300px;
-	margin-top: 60px;
-	/* background-attachment: fixed; */
+	/* margin-top: 60px; */
+	position: relative;
+	/* background-image: url('../img/2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat; */
+	
+	margin-top:36px;
+}
+.banner img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.banner1{
+	/* background-attachment: fixed;
 	background-image: url('../img/2.jpg');
-	/* background-position: center; */
+	
 	background-size: cover;
 	background-repeat: no-repeat;
-	z-index: -1;
-	margin-top: 36px;
+	background-attachment: fixed;
+	z-index:-1; */
+	
 }
-/* .banner img{
+.banner img{
 	width: 100%;
-	height: 600px;
-} */
+	/* height: 300px; */
+	/* opacity: 0; */
+	transition: all 1.5s;
+}
 main{
 	width: 100%;
 	height: 300px;
 	background:#F7F7F7;
+	margin-top: 205px;
 }
 main h5{
 	font-size: 24px;
@@ -185,6 +202,7 @@ main .main-pic{
 	width: 100%;
 	background:#F7F7F7;
 	padding-top: 50px;
+	/* margin-top:500px; */
 }
 .design .icon{
 	width: 100%;
@@ -409,8 +427,8 @@ main .main-pic{
 	background: green;
 } */
 .new .new-list{
-
-	height: 931px;
+	/* margin-top: 50px; */
+	/* height: 931px; */
 }
 .new .new-list ul li{
 	/* background: red; */
@@ -568,13 +586,14 @@ main .main-pic{
 footer{
 	width: 100%;
 	height: 600px;
+	margin-top: 50px;
 	/* padding:40px 15px; */
 }
 footer h3{
 	color: #494949;
 	font-size: 24px;
 	text-align: center;
-	padding-top: 100px;
+	/* padding-top: 100px; */
 }
 footer h4{
 	font-size: 16px;
@@ -755,9 +774,12 @@ footer .big{
 	}
 
 .banner{
-	height:500px;
-	background-attachment: fixed;
+	/* height:500px; */
+	/* background-attachment: fixed; */
 	margin-top: 0;
+}
+main{
+	margin-top: 520px;
 }
 .fresh .fruit .fruit-pic img{
 	width:50%;
